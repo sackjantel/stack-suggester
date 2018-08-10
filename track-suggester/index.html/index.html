@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <img src="img/logo.png" alt="epicodus logo">
+        <img src="eplogo.png" alt="epicodus logo">
         <p> At Epicodus we value your choice and aspirations. For these reasons, we offer three different courses, each comprised of stacks containing different languages frameworks and learning objectives. It is our hope that one of these three stacks will be applicable to where you are looking to take yourself with programming, providing the foundation for your programming goals.</p>
         <a href="https://www.epicodus.com/portland/"><h2 id="link">Stack Catalog</h2></a>
       </div>
@@ -66,3 +66,38 @@
             Company
           </label>
         </div>
+        <h1>Are you interested in doing this full time?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="frequency" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="frequency" value="no">
+            No
+          </label>
+        </div>
+        <h1>Are you prepared to "grind"?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="workethic" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="workethic" value="no">
+            No
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <p><span class="apply"></span></p>
+      <div class="results">
+        <span id="recommend"></span>
+      </div>
+    </div>
+  </body>
+</html>
